@@ -51,9 +51,9 @@ if current_degree_scale == "c" and new_degree_scale == "k":
 elif current_degree_scale == "k" and new_degree_scale == "c":
     new_value = current_value - 273.15
     print(str(current_value)+"K is "+str(new_value)+" in °C scale")
-# Fahrenheit And Kelvin
+# Fahrenheit And Celcius
 if current_degree_scale == "c" and new_degree_scale == "f":
-    new_value = (current_value * 5/9) + 32
+    new_value = (current_value * 9/5) + 32
     print(str(current_value)+"°C is "+str(new_value)+" in °F Scale")
 elif current_degree_scale == "f" and new_degree_scale == "c":
     new_value = (current_value - 32) * 5/9
@@ -63,7 +63,7 @@ if current_degree_scale == "f" and new_degree_scale == "k":
     new_value = (current_value - 32) * 5/9 + 273.15
     print(str(current_value)+"°F is "+str(new_value)+" in Kelvin Scale")
 elif current_degree_scale == "k" and new_degree_scale == "f":
-    new_value = (current_value - 273.25) * 5/9 + 32
+    new_value = (current_value - 273.25) * 9/5 + 32
     print(str(current_value)+"K is "+str(new_value)+" in °F scale")
 
 
