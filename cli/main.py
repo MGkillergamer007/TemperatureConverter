@@ -2,10 +2,10 @@ from xxlimited import Null
 
 
 def credits_to_creator():
-    print("|-------------------------------|")
-    print("| Temperature Converter Program |")
-    print("|     Made By MGkillergamer     |")
-    print("|-------------------------------|")
+    print("|---------------------------------|")
+    print("| Temperature Converter Program!  |")
+    print("|      Made By MGkillergamer      |")
+    print("|---------------------------------|")
 
 
 credits_to_creator()
@@ -26,7 +26,7 @@ elif choice == "f":
 elif choice == "k":
     current_degree_scale = "k"
 else:
-    print("You must type a legitimate scale")
+    print("You must type a legitimate scale!!")
     exit()
 
 choice = input("Type The Scale you want to convert To(c/k/f): ")
